@@ -132,7 +132,7 @@ public final class StdStats {
      * @param  hi the right endpoint of the subarray (exclusive)
      * @return the maximum value in the subarray {@code a[lo..hi)};
      *         {@code Double.POSITIVE_INFINITY} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     public static double min(double[] a, int lo, int hi) {
@@ -187,7 +187,7 @@ public final class StdStats {
      * @param hi the right endpoint of the subarray (exclusive)
      * @return the average value in the subarray {@code a[lo..hi)};
      *         {@code Double.NaN} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     public static double mean(double[] a, int lo, int hi) {
@@ -243,7 +243,7 @@ public final class StdStats {
      * @param hi the right endpoint of the subarray (exclusive)
      * @return the sample variance in the subarray {@code a[lo..hi)};
      *         {@code Double.NaN} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     public static double var(double[] a, int lo, int hi) {
@@ -305,7 +305,7 @@ public final class StdStats {
      * @param hi the right endpoint of the subarray (exclusive)
      * @return the population variance in the subarray {@code a[lo..hi)};
      *         {@code Double.NaN} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     public static double varp(double[] a, int lo, int hi) {
@@ -355,7 +355,7 @@ public final class StdStats {
      * @param hi the right endpoint of the subarray (exclusive)
      * @return the sample standard deviation in the subarray {@code a[lo..hi)};
      *         {@code Double.NaN} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     public static double stddev(double[] a, int lo, int hi) {
@@ -386,7 +386,7 @@ public final class StdStats {
      * @param hi the right endpoint of the subarray (exclusive)
      * @return the population standard deviation in the subarray {@code a[lo..hi)};
      *         {@code Double.NaN} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     public static double stddevp(double[] a, int lo, int hi) {
@@ -420,7 +420,7 @@ public final class StdStats {
      * @param hi the right endpoint of the subarray (exclusive)
      * @return the sum of all values in the subarray {@code a[lo..hi)};
      *         {@code 0.0} if no such value
-     * @throws IllegalArgumentException if {@code a} is {@code null} 
+     * @throws IllegalArgumentException if {@code a} is {@code null}
      * @throws IllegalArgumentException unless {@code (0 <= lo) && (lo < hi) && (hi <= a.length)}
      */
     private static double sum(double[] a, int lo, int hi) {
@@ -452,7 +452,7 @@ public final class StdStats {
 
    /**
      * Plots the points (0, <em>a</em><sub>0</sub>), (1, <em>a</em><sub>1</sub>), ...,
-     * (<em>n</em>–1, <em>a</em><sub><em>n</em>–1</sub>) to standard draw.
+     * (<em>n</em>-1, <em>a</em><sub><em>n</em>-1</sub>) to standard draw.
      *
      * @param a the array of values
      */
@@ -467,9 +467,9 @@ public final class StdStats {
     }
 
    /**
-     * Plots the line segments connecting 
+     * Plots the line segments connecting
      * (<em>i</em>, <em>a</em><sub><em>i</em></sub>) to
-     * (<em>i</em>+1, <em>a</em><sub><em>i</em>+1</sub>) for 
+     * (<em>i</em>+1, <em>a</em><sub><em>i</em>+1</sub>) for
      * each <em>i</em> to standard draw.
      *
      * @param a the array of values
