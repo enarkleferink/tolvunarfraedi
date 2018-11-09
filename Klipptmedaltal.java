@@ -1,5 +1,5 @@
 public class Klipptmedaltal {
-  public static double trmean(double[] a){
+  public static double trmean(double[] a){ //þarfnast lagfæringar
     double max = StdStats.max(a);
     double min = StdStats.min(a);
     double sum = 0;
