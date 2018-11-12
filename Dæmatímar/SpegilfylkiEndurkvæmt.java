@@ -1,7 +1,7 @@
 public class SpegilfylkiEndurkvæmt{ //e. palindrome array
 
   public static boolean prec(int[] a, int i, int j){
-    if(i==j) return true;
+    if(i==j || i+1==j) return true;
     else if(a[i]==a[j]) return (prec(a, ++i, --j));
     else if (a[i]!=a[j]) return false;
     return true;
