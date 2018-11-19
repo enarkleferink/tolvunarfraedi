@@ -1,4 +1,6 @@
-public class RightPercolation { //A new variable of Percolation.java where the flow is only to the right
+public class RightPercolation {
+/*A variable of Percolation.java where the flow cannot be to the lefr (west)
+but it can flow to an empty slot in North, Northeast, East, SouthEast and South*/
 
     // given an n-by-n matrix of open sites, return an n-by-n matrix
     // of sites reachable from the top

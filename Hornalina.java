@@ -1,5 +1,7 @@
 public class Hornalina{
   public static void nullaUtanHornalinu(double[][] a){
+/*setur sem 0.0 öll stök sem ekki eru á hornalínu þess.
+Fallið breytir ekki hornalínustökunum*/
     int N = a.length;
     for (int i=0; i<N; i++) {
       for (int j=0; j<N; j++) {
@@ -19,7 +21,7 @@ public class Hornalina{
       }
     }
     StdArrayIO.print(a);
-    nullaUtanHornalinu(a);  
+    nullaUtanHornalinu(a);
     StdArrayIO.print(a);
   }
 }
